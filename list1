@@ -1,1 +1,13 @@
-
+topics = "string, print, input, " \
+"falsy values, if else, nested if else, loop" \
+", for, while, tuple, range, break, continue, pass, dictio" \
+"nary, set, list, string methods, list methods, bool, sort, enumerate, " \
+"tuple unpacking, nested dictionary, searching list," \
+" frequency counter, matrix, return, function, parameter, " \
+"argument, scope, lambda, open, read, write, " \
+".csv, readline, append, map, filter, reduce," \
+" some modules, encapsulation, abstraction, inheritance, Polymorphism".split(",")
+i = 1 
+for topic in topics :
+    print (f'{i}.{topic}')
+    i += 1 
